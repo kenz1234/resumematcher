@@ -238,48 +238,6 @@ Uploaded files are stored using randomized filenames and are associated with the
 Resume data, parsed information, and generated files are automatically removed after the configured retention period.
 The deployed application currently communicates a **60-minute retention period**, with an option for immediate deletion.
 
-## Local Development
-
-### 1. Clone the repository
-
-```bash
-git clone <repository-url>
-cd resume_job_matcher
-```
-
-### 2. Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Apply migrations
-
-```bash
-python manage.py migrate
-```
-
-### 4. Start the development server
-
-```bash
-python manage.py runserver
-```
-
-The application will then be available through the local Django development server.
-
-### 5. Run tests
-
-```bash
-python manage.py test matcher
-```
-
-## Registry Validation
-
-The company and job-source configuration can be validated with:
-
-```bash
-python manage.py validate_registry
-```
 
 ## Deployment
 
