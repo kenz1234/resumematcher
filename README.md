@@ -114,7 +114,6 @@ Role-family matching also allows related titles to be considered rather than rel
 ### Gap Analysis
 
 For matched positions, the application identifies areas where the candidate may not fully meet the requirements.
-
 The analysis can highlight:
 
 * Missing skills
@@ -128,16 +127,12 @@ This information is then used to guide resume tailoring and improvement.
 ### Tailored Resume Generation
 
 The application can generate a job-specific resume while keeping the candidate's original information as the source of truth.
-
 The generated resume can include relevant skills selected by the candidate and certification information based on the candidate's actual status.
-
-
 The application provides an editor where the generated LaTeX can be modified and compiled into a PDF.
 
 ### Technology- and Business-Park Job Search
 
 The search system includes official job listings from technology/business hubs.
-
 The current project includes dedicated handling for:
 
 * Infopark
@@ -217,7 +212,6 @@ resume_job_matcher/
 ## Configuration-Driven Career Registry
 
 One of the key design decisions is keeping career sources outside the application logic.
-
 Companies are maintained through `companies.yaml`, where each source can define information such as:
 
 ```yaml
@@ -230,7 +224,6 @@ Companies are maintained through `companies.yaml`, where each source can define 
 ```
 
 This makes the job-source system easier to maintain and extend.
-
 The project also includes separate registries for:
 
 * Job functions
@@ -241,11 +234,8 @@ The project also includes separate registries for:
 ## Privacy
 
 Privacy is built into the application workflow.
-
 Uploaded files are stored using randomized filenames and are associated with the user's browser session rather than being publicly accessible.
-
 Resume data, parsed information, and generated files are automatically removed after the configured retention period.
-
 The deployed application currently communicates a **60-minute retention period**, with an option for immediate deletion.
 
 ## Local Development
