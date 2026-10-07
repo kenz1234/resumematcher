@@ -131,17 +131,6 @@ The application can generate a job-specific resume while keeping the candidate's
 
 The generated resume can include relevant skills selected by the candidate and certification information based on the candidate's actual status.
 
-### ATS-Friendly LaTeX Resume
-
-The project also includes an ATS-oriented LaTeX resume generator.
-
-Generated resumes use:
-
-* Single-column structure
-* Standard section headings
-* Selectable text
-* No tables or image-based resume content
-* ATS-friendly formatting
 
 The application provides an editor where the generated LaTeX can be modified and compiled into a PDF.
 
