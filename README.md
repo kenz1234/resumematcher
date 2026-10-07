@@ -348,7 +348,7 @@ Generated resumes should remain simple, readable, machine-parsable, and suitable
 The project is deployed as a working web application:
 
 **Resume Job Matcher**
-[Open Live Application](https://resumematcher07.pythonanywhere.com/?utm_source=chatgpt.com)
+[Open Live Application](https://resumematcher07.pythonanywhere.com)
 
 ---
 
